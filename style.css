@@ -1,0 +1,96 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    background-color: black;
+}
+
+.main {
+    color: rgb(0, 137, 228);
+    padding-top: 12%;
+    font-family: 'Architects Daughter', 'sans-serif';
+    letter-spacing: 4px;
+}
+
+.headers {
+    text-align: center;
+    font-size: 36px;
+}
+
+.under {
+    padding: 50px 0px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+}
+
+.rock {
+    width: 200px;
+    height: 100px;
+    border-radius: 16px;
+    border: 2px solid rgb(0, 137, 228);
+    margin: 10px 40px;
+    background-color: rgb(216, 216, 216);
+    font-size: 24px;
+    font-family: 'Architects Daughter', 'sans-serif';
+    letter-spacing: 4px;
+    font-weight: 700;
+}
+
+.rock:hover {
+    border-radius: 50px;
+    transition: all .2s ease-in-out;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+}
+
+.paper {
+    width: 200px;
+    height: 100px;
+    border-radius: 16px;
+    border: 2px solid rgb(0, 137, 228);
+    margin: 10px 40px;
+    background-color: rgb(216, 216, 216);
+    font-size: 24px;
+    font-family: 'Architects Daughter', 'sans-serif';
+    letter-spacing: 4px;
+    font-weight: 700;
+}
+
+.paper:hover {
+    border-radius: 50px;
+    transition: all .2s ease-in-out;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+}
+
+.scissors {
+    width: 200px;
+    height: 100px;
+    border-radius: 16px;
+    border: 2px solid rgb(0, 137, 228);
+    margin: 10px 40px;
+    background-color: rgb(216, 216, 216);
+    font-size: 24px;
+    font-family: 'Architects Daughter', 'sans-serif';
+    letter-spacing: 4px;
+    font-weight: 700;
+}
+
+.scissors:hover {
+    border-radius: 50px;
+    transition: all .2s ease-in-out;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+}
+
+.rs {
+    text-align: center;
+    font-size: 28px;
+    padding: 50px 0px;
+}
+
+.scoreboard {
+    margin: 50px 0px;
+}
